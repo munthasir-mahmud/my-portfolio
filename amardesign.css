@@ -1,0 +1,132 @@
+.image {
+	width: 350px;
+	margin-left: 50px;
+	box-shadow: 10px 10px 10px 10px black;
+	float: left;
+}
+
+.block {
+	padding: 25px;
+	width: 326px;
+	text-align: justify;
+	overflow: hidden;
+	background: #E8EAED;
+	transition: all 1s;
+	animation-name: wow;
+	animation-duration: 2s;
+	display: inline-block;
+	margin: auto;
+}
+
+.icon {
+	font-size: 25px;
+	width: 40px;
+	float: left;
+	padding-top: 6px;
+	color: blue;
+	margin-top: 12px
+}
+
+.article {
+	width: 250px;
+}
+
+.icon,
+.article {
+	display: inline-block;
+}
+
+.main_block {
+	margin-left: 70px;
+	overflow: hidden;
+	width: 1220px;
+}
+
+.title {
+	text-align: center;
+	color: blue;
+	font-size: 40px
+}
+
+.block:hover {
+	color: white;
+	background: black;
+	cursor: pointer;
+	transform: scale(.8);
+	transform: rotateY(360deg);
+	transform: translateY(-20px);
+}
+
+.block:hover .icon {
+	color: white;
+}
+
+@keyframes wow {
+	from {
+		transform: scale(0) rotate(0deg)
+	}
+
+	to {
+		transform: scale(1) rotate(360deg)
+	}
+}
+
+#introduction {
+	width: 550px;
+	float: right;
+	text-align: justify;
+	margin-right: 120px;
+}
+
+.image,
+#introduction {
+	display: inline-block;
+}
+
+#introduction h2 {
+	border-bottom: 1px solid black
+}
+
+footer {
+	background: black;
+	color: white;
+	overflow: hidden;
+	display: block;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-left: 663px
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	background: green;
+	padding: 7px 12px;
+	color: black;
+	font-size: 16px
+}
+
+.menu li a {
+	text-decoration: none
+}
+
+#about {
+	color: orange;
+	font-size: 30px;
+	margin-left: 615px;
+}
+
+.block2 {
+	display: inline-block;
+	width: 100%;
+}
+
+.unknown,
+.menu {
+	display: inline-block;
+}
+.blockme {overflow:hidden;margin-top:100px;}
